@@ -6,11 +6,11 @@
     <title>Latihan PHP Nomor 1</title>
 </head>
 <body>
-    <h3>Piramida Polindrom</h3>
+    <h3>Polindrome Pyramid</h3>
     <p>Masukkan sebuah angka dari 1-10:</p>
     <form method="POST">
         <input type="number" name="angka" min="1" max="10" required>
-        <button type="submit">OK</button>
+        <button type="submit">Buat Piramid</button>
     </form>
 
     <?php
